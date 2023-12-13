@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family:Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+    background-image: url('clck.avif');
+    background-size: cover;
+    overflow: hidden;
+}
+.clock{
+    display: flex;
+    position: relative;
+}
+h1{
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 25px;
+    text-align: center;
+    font-weight: 800;
+    color: rgb(80, 78, 78);
+}
+.time{
+    margin: 5px;
+}
+.time span{
+    width: 100px;
+    height: 80px;
+    background-color: aquamarine;
+    color: black;
+    display: flex;
+    opacity: .8;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
+}
+.time .text{
+    height: 30px;
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    background-color: rgb(65, 65, 241);
+    opacity: .8;
+}
+
+.clock #ampm{
+    bottom: 0;
+    position: absolute;
+    height: 30px;
+    width: 60px;
+    font-size: 20px;
+    background-color: green;
+    font-weight: 500;
+}
